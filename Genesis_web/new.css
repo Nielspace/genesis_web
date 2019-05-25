@@ -119,7 +119,7 @@ a{
 
 /**Left Container**/
 .one{
-    display: block;
+    /* display: block; */
     padding: 10% 0% 20% 5%;
     background-color: rgb(255, 255, 255);
     align-items: center;
@@ -166,6 +166,21 @@ a{
     background-repeat: no-repeat;
     background-position: 30%
 } 
+
+
+/* info*/
+
+.info{
+    display: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgb(126, 126, 126);
+}
+
+.info p{
+    transition: all 1s ease-in-out;
+    visibility: hidden;
+}
 
 /** Courses **/
 
