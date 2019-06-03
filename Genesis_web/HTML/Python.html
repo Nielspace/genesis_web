@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Python</title>
+    <link rel="icon" href="/Images/Green.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    
+
+
+
+
+    <div class="wrapper">
+        <div class="parallax">
+            <h1>Python Development</h1>
+            <p>A scripting language that is changing the world</p>
+
+        </div>
+
+        <div class="content">
+                <h1>Why Programmers Should Learn Python in 2019?</h1>
+
+                <p> If you are thinking to learn Python but not sure why you should do that then here are 10 reasons which highlight the benefits of learning Python in 2019. </p>
+                 
+                <p>Though, the questions depend upon who is asking that i.e. for a beginner, learning Python makes sense because its simple and main reason for learning Python is simplicity.
+                </p>
+
+                <p>Similarly, for an experienced programmer who is looking to go into Data Science and Machine learning, learning Python makes sense because it’s quickly becoming the most used programming language and there are powerful APIs and library available for AI, Data Science, and Machine learning.
+                </p>
+
+                <p>Anyway, without any further a do, <strong> here are my 10 reasons to learn Python in 2019: </strong></p>
+
+                <h1>1. Data-Science </h1>
+                <h1>2. Artificial Intelligence</h1>
+                <h1>3. Web-development</h1>
+                <h1>4. Automation</h1>
+                <h1>5. Gaming </h1>
+
+
+                <div class="learningCurve">
+                    <table class="table">
+                            <tbody>
+                                <tr>
+                                    <th>Course 1: Introduction to Python</th>
+
+                                </tr>
+                            
+                               <tr>
+                                   <td>Variables</td>
+                                   <td>Assignments print and input function</td>
+                                   <td>This module will contain hands on
+                                       <ul>
+                                           <li>Including slicing and concatenation</li>
+                                           <li>Casting of data types</li>
+                                       </ul>
+                                   
+                               </tr>
+                           
+                               <tr>
+                                    <th>Course 1: Introduction to Python</th>
+
+                                </tr>
+                            
+                               <tr>
+                                   <td>Variables</td>
+                                   <td>Assignments print and input function</td>
+                                   <td>This module will contain hands on
+                                       <ul>
+                                           <li>Including slicing and concatenation</li>
+                                           <li>Casting of data types</li>
+                                       </ul>
+                                   
+                               </tr>
+                               <tr>
+                                    <th>Course 1: Introduction to Python</th>
+
+                                </tr>
+                            
+                               <tr>
+                                   <td>Variables</td>
+                                   <td>Assignments print and input function</td>
+                                   <td>This module will contain hands on
+                                       <ul>
+                                           <li>Including slicing and concatenation</li>
+                                           <li>Casting of data types</li>
+                                       </ul>
+                                   
+                               </tr>
+
+                               <tr>
+                                    <th>Course 1: Introduction to Python</th>
+
+                                </tr>
+                            
+                               <tr>
+                                   <td>Variables</td>
+                                   <td>Assignments print and input function</td>
+                                   <td>This module will contain hands on
+                                       <ul>
+                                           <li>Including slicing and concatenation</li>
+                                           <li>Casting of data types</li>
+                                       </ul>
+                                   
+                               </tr>
+
+                               <tr>
+                                    <th>Course 1: Introduction to Python</th>
+
+                                </tr>
+                            
+                               <tr>
+                                   <td>Variables</td>
+                                   <td>Assignments print and input function</td>
+                                   <td>This module will contain hands on
+                                       <ul>
+                                           <li>Including slicing and concatenation</li>
+                                           <li>Casting of data types</li>
+                                       </ul>
+                                   
+                               </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                <figure></figure>
+                <div class="container">
+                    <canvas id="myChart"></canvas>
+                    <script>
+                            let myChart = document.getElementById('myChart').getContext('2d');
+                        
+                            // Global Options
+                            Chart.defaults.global.defaultFontFamily = 'Lato';
+                            Chart.defaults.global.defaultFontSize = 18;
+                            Chart.defaults.global.defaultFontColor = '#777';
+                        
+                            let massPopChart = new Chart(myChart, {
+                              type:'polarArea', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+                              data:{
+                                labels:['Python', 'JavaScript', 'Java', 'R', 'C', 'C#'],
+                                datasets:[{
+                                  label:'Salary',
+                                  data:[
+                                    1254440,
+                                    1235000,
+                                    1100000,
+                                    1006519,
+                                    1005162,
+                                    905072
+                                  ],
+                                  //backgroundColor:'green',
+                                  backgroundColor:[
+                                    'rgba(255, 99, 132, 0.6)',
+                                    'rgba(54, 162, 235, 0.6)',
+                                    'rgba(255, 206, 86, 0.6)',
+                                    'rgba(75, 192, 192, 0.6)',
+                                    'rgba(153, 102, 255, 0.6)',
+                                    'rgba(255, 159, 64, 0.6)',
+                                    'rgba(255, 99, 132, 0.6)'
+                                  ],
+                                  borderWidth:1,
+                                  borderColor:'#fff',
+                                  hoverBorderWidth:3,
+                                  hoverBorderColor:'#fff'
+                                }]
+                              },
+                              options:{
+                                title:{
+                                  display:true,
+                                  text:'Pay Scale of software developer - based on the programming language',
+                                  fontSize:25
+                                },
+                                legend:{
+                                  display:true,
+                                  position:'right',
+                                  labels:{
+                                    fontColor:'#000'
+                                  }
+                                },
+                                layout:{
+                                  padding:{
+                                    left:50,
+                                    right:0,
+                                    bottom:0,
+                                    top:0
+                                  }
+                                },
+                                tooltips:{
+                                  enabled:true
+                                }
+                              }
+                            });
+                          </script>
+                </div>
+                <caption>
+                    <p>This graph pretty much shows why there is a need of python developers...</p></caption>
+
+        </div>
+    </div>
+
+
+
+
+    <!--<h1>Our Courses</h1>-->
+    <div class="subject">
+            <div class="courses">
+                <h1>Find our other courses</h1>
+            </div>
+            <a id = 'courses'></a>
+
+            <div class="fullstack">
+                <h2>Fullstack Development</h2>
+            </div>
+    
+            <div class="ai">
+                <h2>Artificial Intelligence</h2>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    <div class="contact">
+        
+            <div class="address"><h2>Address</h2>Genesis Trainings <br>#39, First floor, 
+                <br>9th Cross, NGR Layout, 
+                <br>Roopena Agrahara 
+                <br>Bangalore - 560068 
+                <br>
+                <br><a href="tel:+91-8088205230"> Ph no. +91 8088205230</a>
+                </div>
+            <div class="email">
+                <h2>Email</h2>
+                <address><a href="mailto:genesistrainings.digital@gmail.com">genesistrainings.digital@gmail.com</a></address>
+                
+            </div>
+        
+            <div class="social">
+                <h2>Social Media</h2>
+                <div class="facebook">
+                    <a href="https://www.facebook.com/genesistrainings/" target="_blank"><p>Facebook</p></a>
+                </div>
+                <div class="insta"><a href="https://wa.me/918088205230" target="_blank"><p>WhatsApp</p></a></div>
+                <div class="linkedin">
+                        <a href="https://www.linkedin.com/company/genesis-trainings/about/" target="_blank"><p>LinkedIn</p></a>
+                </div>
+                <div class="insta"><p>Instagram</p></div>
+            </div>
+    </div>
+    <footer>
+            <p>Genesis Trainings &copy; 2019</p>
+    </footer>
+    
+</body>
+</html>
