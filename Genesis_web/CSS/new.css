@@ -178,6 +178,7 @@ a{
     border-radius: 20px;
     box-shadow: 2px 2px 4px rgb(126, 126, 126);
     margin: 0%;
+    background-color: white;
 }
 
 .info p{
