@@ -1,3 +1,3 @@
-# Project Exodus
+# Project Exodus 
 
-Frontend and backend Design Project. 
+Frontend and Backend Design Project. 
